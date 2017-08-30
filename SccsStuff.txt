@@ -1,0 +1,87 @@
+bash-3.2$ sccs create *
+
+iofunctions.c:
+No id keywords (cm7)
+
+main.c:
+No id keywords (cm7)
+
+proj1MF:
+No id keywords (cm7)
+
+recordfunctions.c:
+No id keywords (cm7)
+
+uifunctions.c:
+No id keywords (cm7)
+1.1
+125 lines
+No id keywords (cm7)
+1.1
+160 lines
+No id keywords (cm7)
+1.1
+23 lines
+No id keywords (cm7)
+1.1
+318 lines
+No id keywords (cm7)
+1.1
+161 lines
+No id keywords (cm7)
+bash-3.2$ sccs create *.cpp
+
+llist.cpp:
+No id keywords (cm7)
+
+main.cpp:
+No id keywords (cm7)
+
+uifunc.cpp:
+No id keywords (cm7)
+1.1
+619 lines
+No id keywords (cm7)
+1.1
+142 lines
+No id keywords (cm7)
+1.1
+171 lines
+No id keywords (cm7)
+bash-3.2$ sccs create proj2MF
+
+proj2MF:
+No id keywords (cm7)
+1.1
+35 lines
+No id keywords (cm7)
+bash-3.2$ sccs create *.h
+
+llist.h:
+No id keywords (cm7)
+
+record.h:
+No id keywords (cm7)
+
+uifunc.h:
+No id keywords (cm7)
+1.1
+31 lines
+No id keywords (cm7)
+1.1
+11 lines
+No id keywords (cm7)
+1.1
+9 lines
+No id keywords (cm7)
+bash-3.2$ 
+
+
+bash-3.2$ ls
+getrelease.sh       ,main.c             proj2MF             uifunc.cpp
+,iofunctions.c      main.c              ,recordfunctions.c  ,uifunc.h
+iofunctions.c       ,main.cpp           recordfunctions.c   uifunc.h
+,llist.cpp          main.cpp            ,record.h           ,uifunctions.c
+llist.cpp           ,proj1MF            record.h            uifunctions.c
+,llist.h            proj1MF             SCCS
+llist.h             ,proj2MF            ,uifunc.cpp

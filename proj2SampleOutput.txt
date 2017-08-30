@@ -1,0 +1,369 @@
+Script started on Sat Nov 26 11:53:43 2016
+[?1034hbash-3.2$ make -f proj2MF compile
+g++ -c llist.cpp
+g++ -c uifunc.cpp
+g++ -c main.cpp
+g++ -o Project2Exec llist.o uifunc.o main.o
+bash-3.2$ make -f proj2MF compileDebug
+g++ -DDEBUGMODE -c llist.cpp
+g++ -DDEBUGMODE -c uifunc.cpp
+g++ -DDEBUGMODE -c main.cpp
+g++ -o Project2DebugExec llist.o uifunc.o main.o
+bash-3.2$ make -f proj2MF compileDebug[K[K[K[K[K[K[K[K[K[K[K[K[K
+./Project2Exec
+Creating list--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>A
+Enter the account number
+>10
+Enter a name
+>Zachary Heth
+Enter an address. Input '!' and hit enter when finished
+>Honolulu Hawaii!
+Enter the year of birth
+>1000
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>A
+Enter the account number
+>20
+Enter a name
+>Henry the Third
+Enter an address. Input '!' and hit enter when finished
+>Otoomaannn
+>Empire!
+Enter the year of birth
+>2000
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>A
+Enter the account number
+>15
+Enter a name
+>REx
+Enter an address. Input '!' and hit enter when finished
+>Dinosaur Land
+>In the Museum
+>On Doever Street!
+Enter the year of birth
+>1500
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>D
+--------------------
+Account Number: 20
+Name: Henry the Third
+Address: Otoomaannn
+Empire
+Year of Birth: 2000
+--------------------
+Account Number: 15
+Name: REx
+Address: Dinosaur Land
+In the Museum
+On Doever Street
+Year of Birth: 1500
+--------------------
+Account Number: 10
+Name: Zachary Heth
+Address: Honolulu Hawaii
+Year of Birth: 1000
+--------------------
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>B
+Enter the account number
+>15
+Enter an address. Input '!' and hit enter when finished
+>DinoPark!
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>C
+Enter the account number
+>15
+--------------------
+Account Number: 15
+Name: REx
+Address: DinoPark
+Year of Birth: 1500
+--------------------
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>F
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>D
+--------------------
+Account Number: 10
+Name: Zachary Heth
+Address: Honolulu Hawaii
+Year of Birth: 1000
+--------------------
+Account Number: 15
+Name: REx
+Address: DinoPark
+Year of Birth: 1500
+--------------------
+Account Number: 20
+Name: Henry the Third
+Address: Otoomaannn
+Empire
+Year of Birth: 2000
+--------------------
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>F
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>D
+--------------------
+Account Number: 20
+Name: Henry the Third
+Address: Otoomaannn
+Empire
+Year of Birth: 2000
+--------------------
+Account Number: 15
+Name: REx
+Address: DinoPark
+Year of Birth: 1500
+--------------------
+Account Number: 10
+Name: Zachary Heth
+Address: Honolulu Hawaii
+Year of Birth: 1000
+--------------------
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>G
+Exiting the Program
+bash-3.2$ make -f proj2MF runDebug
+g++ -DDEBUGMODE -c llist.cpp
+g++ -DDEBUGMODE -c uifunc.cpp
+g++ -DDEBUGMODE -c main.cpp
+g++ -o Project2DebugExec llist.o uifunc.o main.o
+./Project2DebugExec
+*******************
+Entering DEBUGMODE
+*******************
+Entering list(char*)
+*******************
+*******************
+Entering charArrayCopy(char*,char*)
+*******************
+*******************
+Entering readfile()
+*******************
+*******************
+Entering addRecord(int,char*,char*,int)
+Parameter: 20, Henry the Third, Otoomaannn
+Empire, 2000
+*******************
+*******************
+Entering charArrayCopy(char*,char*)
+*******************
+*******************
+Entering charArrayCopy(char*,char*)
+*******************
+*******************
+Entering addRecord(int,char*,char*,int)
+Parameter: 15, REx, DinoPark, 1500
+*******************
+*******************
+Entering charArrayCopy(char*,char*)
+*******************
+*******************
+Entering charArrayCopy(char*,char*)
+*******************
+*******************
+Entering addRecord(int,char*,char*,int)
+Parameter: 10, Zachary Heth, Honolulu Hawaii, 1000
+*******************
+*******************
+Entering charArrayCopy(char*,char*)
+*******************
+*******************
+Entering charArrayCopy(char*,char*)
+*******************
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>E
+*******************
+Entering getaccountno(int*)
+*******************
+Enter the account number
+>15
+*******************
+Entering deleteRecord(int)
+Parameter: 15
+*******************
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>E
+*******************
+Entering getaccountno(int*)
+*******************
+Enter the account number
+>20
+*******************
+Entering deleteRecord(int)
+Parameter: 20
+*******************
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>E
+*******************
+Entering getaccountno(int*)
+*******************
+Enter the account number
+>10
+*******************
+Entering deleteRecord(int)
+Parameter: 10
+*******************
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>D
+*******************
+Entering operator<<
+*******************
+--------------------
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>G
+Exiting the Program
+*******************
+Entering writefile()
+*******************
+bash-3.2$ exit
+exit
+
+Script done on Sat Nov 26 11:57:29 2016

@@ -1,0 +1,35 @@
+runNoCompile:
+	./Project2Exec
+
+run: compile
+	./Project2Exec
+
+compile: llist.o uifunc.o main.o record.h
+	g++ -o Project2Exec llist.o uifunc.o main.o
+
+llist.o: llist.h llist.cpp
+	g++ -c llist.cpp
+
+uifunc.o: uifunc.cpp uifunc.h
+	g++ -c uifunc.cpp
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+runDebug: compileDebug
+	./Project2DebugExec
+
+compileDebug: llistDebug.o uifuncDebug.o mainDebug.o record.h
+	g++ -o Project2DebugExec llist.o uifunc.o main.o
+
+llistDebug.o: llist.h llist.cpp
+	g++ -DDEBUGMODE -c llist.cpp
+
+uifuncDebug.o: uifunc.cpp uifunc.h
+	g++ -DDEBUGMODE -c uifunc.cpp
+
+mainDebug.o: main.cpp
+	g++ -DDEBUGMODE -c main.cpp
+
+clean:
+	rm *.o

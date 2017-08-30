@@ -1,0 +1,86 @@
+Script started on Wed Dec 07 06:55:04 2016
+uhx01% bash
+bash-3.2$ ls
+SCCS         SCCScript18
+bash-3.2$ sccs e[Kget getr[Krelease.sh
+1.8
+17 lines
+No id keywords (cm7)
+bash-3.2$ chmod 700 getree[Kleas.[Ke.sh
+bash-3.2$ ./getrelease.sh
+1.1
+23 lines
+No id keywords (cm7)
+1.1
+318 lines
+No id keywords (cm7)
+1.1
+160 lines
+No id keywords (cm7)
+1.1
+161 lines
+No id keywords (cm7)
+1.1
+125 lines
+No id keywords (cm7)
+1.1
+35 lines
+No id keywords (cm7)
+1.1
+11 lines
+No id keywords (cm7)
+1.1
+9 lines
+No id keywords (cm7)
+1.1
+31 lines
+No id keywords (cm7)
+1.1
+171 lines
+No id keywords (cm7)
+1.1
+619 lines
+No id keywords (cm7)
+1.1
+142 lines
+No id keywords (cm7)
+gcc -c recordfunctions.c 
+gcc -c iofunctions.c
+gcc -c uifunctions.c
+gcc -c main.c
+gcc -o Project1Exec recordfunctions.o iofunctions.o uifunctions.o main.o
+./Project1Exec
+make: *** [run] Segmentation Fault (core dumped)
+./getrelease.sh: line 14: F: command not found
+g++ -c llist.cpp
+g++ -c uifunc.cpp
+g++ -c main.cpp
+g++ -o Project2Exec llist.o uifunc.o main.o
+./Project2Exec
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>G
+Exiting the Program
+./getrelease.sh: line 17: G: command not found
+bash-3.2$ s
+bash: s: command not found
+bash-3.2$ ls
+getrelease.sh      main.c             Project2Exec       uifunc.cpp
+iofunctions.c      main.cpp           recordfunctions.c  uifunc.h
+iofunctions.o      main.o             recordfunctions.o  uifunc.o
+llist.cpp          proj1MF            record.h           uifunctions.c
+llist.h            proj2MF            SCCS               uifunctions.o
+llist.o            Project1Exec       SCCScript18
+bash-3.2$ exit
+exit
+uhx01% exit
+uhx01% 
+script done on Wed Dec 07 06:56:32 2016

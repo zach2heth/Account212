@@ -1,0 +1,55 @@
+Script started on Tue Dec 06 21:21:19 2016
+uhx01% bash
+bash-3.2$ sccs ed[K[Kget -r1/[K.4 getrelease.sh
+1.4
+9 lines
+No id keywords (cm7)
+bash-3.2$ chmod 700 getrelease.sh
+bash-3.2$ ls
+getrelease.sh  SCCS           SCCScript
+bash-3.2$ ./getrelease
+bash: ./getrelease: No such file or directory
+bash-3.2$ ./getrelease.sh
+1.1
+35 lines
+No id keywords (cm7)
+1.1
+11 lines
+No id keywords (cm7)
+1.1
+9 lines
+No id keywords (cm7)
+1.1
+31 lines
+No id keywords (cm7)
+1.1
+171 lines
+No id keywords (cm7)
+1.1
+619 lines
+No id keywords (cm7)
+1.1
+142 lines
+No id keywords (cm7)
+g++ -c llist.cpp
+g++ -c uifunc.cpp
+g++ -c main.cpp
+g++ -o Project2Exec llist.o uifunc.o main.o
+./Project2Exec
+--------------------
+|A: Add a new record in the database
+|B: Modify a record in the database using the accountno as the key
+|C: Print information about a record using the accountno as the key
+|D: Print all information in the database
+|E: Delete an existing record from the database using the accountno as a key
+|F: Reverse the order of the records
+|G: Quit the program
+--------------------
+Input a letter option
+>G
+Exiting the Program
+bash-3.2$ exit
+exit
+uhx01% exit
+uhx01% 
+script done on Tue Dec 06 21:23:24 2016
